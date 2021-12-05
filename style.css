@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+
+body{font-family: 'Ubuntu', sans-serif;}
+h1,h2,h3,h4,h5,h6{font-family: 'Libre Baskerville', serif;    color: #525456;}
+
+.data_block img{width: 50px;display: inline-block;float: left;}
+.data_block h4{display: inline-block;float: left;color: #525456;}
+.data_block p{color: #888;width: 85%;margin: auto;}
+.data_block p a{color: #525456 !important;}
+
+p{color: #888;font-family: 'Ubuntu', sans-serif;}
+
+.block{padding-left: 30px;padding-right: 30px;}
+.block p{font-family: 'Lato', sans-serif; color:#656464;text-align: justify;font-size: 14px;}
+.block h4{padding: 5px 20px;text-decoration: underline;text-transform: uppercase;font-weight: bold;}
+
+#tab_collapse{background: #525456;border: none;}
+#tab_collapse .nav{background: #525456;border: none;}
+#tab_collapse1{background: #525456;border: none;}
+#tab_collapse1 .nav{background: #525456;border: none;}
+.nav-tabs>li>a{color: #fff !important;}
+.nav-tabs>li.active>a, .nav-tabs>li:hover .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{background: #ECB200;color: #000 !important;}
+
+
+.r_block{display: none;} 
+@media screen and (max-width: 576px){.r_block{display: block;} }
+.tab-pane p{color: #fff; font-size: 13px;font-family: 'Ubuntu', sans-serif;}
+
+.nav-tabs>li>a:hover{color: #000 !important;}
+
+.pc_hide{display: none;}
+
+.link_block{background-color: rgb(229, 233, 240);list-style: none;padding-left: 0px;}
+.link_block li{padding: 7px;}
+.link_block>li>a{color: #000 !important;padding: 10px;font-size: 14px;text-transform: uppercase;}
+.link_block>.act{color: #fff; background-color: rgba(236, 178, 0, 0.43);  box-shadow: rgba(255, 255, 255, 0.05) 0px 1px 0px 0px inset;}
+.link_block>.act>a{color: #000 !important;}
+
+
+
+
+
+@media screen and (max-width: 576px){
+	.top_bar{display: none;}
+	.mob_hide{display: none;}
+	.pc_hide{display: block;}
+}

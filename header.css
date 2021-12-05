@@ -1,0 +1,46 @@
+  .affix {top: 0; width: 100%; }
+  .affix + .container-fluid {padding-top: 10px; }
+  .top_bar { min-height: 30px; box-shadow: inset 0px 11px 8px -10px #000, inset 0px -11px 8px -10px #000; background: #525456;}
+  .hd_navbar{background: #525456;border-bottom: 5px solid #ECB200;}
+  .social { list-style-type:none; margin-bottom:0px; float:left; padding:0px; margin-left:0px;}
+  .social li { float:left;}
+  .social li a img{    width: 22px; padding-top: 2px; margin: 4px;}
+  .rightc { list-style-type:none; margin-bottom:0px; float:right;}
+  .rightc li { margin:0px 10px; font-size:13px; float:left; line-height:30px; color:#FFF;}
+  .rightc li a {   color:#FFF; }
+  .navbar-brand img { margin-top:0px; margin-left:0px;}
+  .navbar-brand {padding:0px;}
+  .header_image { margin-top:-70px; float:left;}
+  .nav.navbar-nav.navbar-right span {font-family: 'Open Sans', sans-serif; font-style:italic; font-weight:300; color:#1b6977;}
+  .navbar-right li a {font-family: 'Open Sans', sans-serif; font-size:16px; color:#1b6977 !important;}
+  .navbar-nav>li>a{color: #fff;text-transform: uppercase; font-size: 13px;}
+  .navbar-nav>li>a:hover{background-color: #ECB200 !important;color: #525456 !important;}
+  .navbar-nav>li>a:active{background-color: #ECB200 !important;color: #525456 !important;}
+  .navbar-nav>li>.dropdown-menu{background-color: #525456;}
+  .dropdown-menu>li>a{text-align: left;color: #fff !important;}
+  .dropdown-menu>li>a:hover{background-color: #ECB200;color: #000 !important;}
+  .sch_name{font-size: 30px; color: #525456; text-transform: uppercase; font-family: initial; text-align: left; padding-left: 15px; }
+
+  .sub_navbar{background-color: #fff;height: 80px;}
+
+  .navbar-toggle{    border: 1px solid #525456;}
+  .navbar-toggle .icon-bar{    background-color: #525456;    height: 3px;}
+  .sch_logo{width: 70px;}
+
+  .nav .open>a, .nav .open>a:hover, .nav .open>a:focus{background-color: #ECB200 !important;}
+
+  .pc_hide{display: none;}
+@media screen and (max-width: 768px){
+  .sch_name{    font-size: 17px;}
+  .sch_logo{width: 70px;}
+  .mob_hide{display: none;}
+  .pc_hide{display: block;}
+  .sub_navbar{height: 80px;}
+  .navbar-nav>li>a{text-align: left;padding-left: 10%;}
+}
+
+
+  @media (min-width:1280px) and (max-width:1900px){
+  .show-on-hover:hover > ul.dropdown-menu {display: block; }
+  .show-on-hover{}
+}
